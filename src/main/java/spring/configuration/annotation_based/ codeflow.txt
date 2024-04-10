@@ -1,0 +1,10 @@
+ANNOTATION BASED CONFIGURATION:----
+—-------------------------------------------------
+Annotated a class with @Component annotation. @Component creates beans for us.
+Use @ComponentScan annotation to specify package name for scanning those classes that are annotated with @Component annotation.
+Use @Autowired annotation to automatically inject the Spring bean.
+Use @Qualifier annotation to avoid the confusion between multiple Spring beans of the same type.
+Create Spring IoC Container(Application Context) and Retrieve Spring bean from Spring IoC container.
+If we don’t give a specific name to @Component then the IoC container puts the name as class name but the first letter as small. Ex- Class ->class
+
+Go through Employee,Development,Tester,Manager,AnnotationBasedConfig and ClientAnnotationBased

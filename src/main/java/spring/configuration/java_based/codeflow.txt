@@ -1,0 +1,9 @@
+Steps for java based Configuration:
+—------------------------------------------------------
+Create a Configuration class with @Configuration annotation.
+Create a method and annotate it with @Bean annotation.
+Create Spring IoC Container(ApplicationContext) and Retrieve Spring bean from Spring IoC container.
+
+Code go through:-
+-----------------
+Go to Books,NewsPaper,Java_based_config and ClientJava_based class respectively.
