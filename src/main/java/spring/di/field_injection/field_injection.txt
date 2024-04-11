@@ -1,0 +1,9 @@
+Service,SmsService,EmailService and ConstructorInjectionConfig of Constructor_injection package will be same.
+
+Field based dependency is not recommended by spring team.
+Drawbacks of Field Injection:
+—-------------------------------------------
+We can’t create immutable dependency objects, as we can create with constructor injection(We can’t make the field final).
+Our classes have tight coupling with Spring IoC containers and can’t be used outside of it.
+Our classes can’t be instantiated (for example in unit tests) without reflection. We need the Spring IoC container to instantiate them, which makes your tests more like integration tests.
+Having too many dependencies is a red flag that the class usually does more than one thing, and that it may violate the Single Responsibility Principle.

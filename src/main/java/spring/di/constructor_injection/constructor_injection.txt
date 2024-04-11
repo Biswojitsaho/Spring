@@ -1,0 +1,12 @@
+Constructor injection uses the constructor to inject dependency on any Spring-managed bean.
+Before Spring 4.3 we had to add an @Autowired annotation to the constructor.
+With the newer versions, this is optional if the class has only one constructor.
+
+When we have a class with multiple constructors, we need to explicitly add the @Autowired annotation to any one of the constructors
+so that Spring knows which constructor to use to inject the dependencies.
+
+The Spring team recommended using constructor based-dependency injection.
+Some advantages of using constructor based-dependency injection are-
+1.All required dependencies are available at initialization time(this reduces the code as well)
+2. Immutability and avoid NullPointerException
+3.Preventing errors in Tests.

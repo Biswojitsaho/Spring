@@ -1,0 +1,7 @@
+
+-> Setter injection uses the setter method to inject dependency on any spring-managed bean.
+-> We have to annotate the setter method with the @Autowired annotation.
+-> Spring will find the @Autowired annotation and call the setter to inject the dependency.
+
+Service,SmsService,EmailService and ConstructorInjectionConfig of Constructor_injection package will be same.
+Instead of injecting dependencies in constructor we inject dependencies in setter level.
