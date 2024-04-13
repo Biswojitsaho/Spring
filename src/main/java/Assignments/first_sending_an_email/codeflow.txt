@@ -1,0 +1,1 @@
+Go through DataSourse,MySQLDataSourse,PostgresSQLDataSource,EmailService,SendEmailConfig and ClientEmailSend.
